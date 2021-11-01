@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://dte.devzar.com" target="_blank">
-<img src="logo.png" width="400">
+<img src="resources\assets\img\logo.png" width="400">
 
 <h1 align="center"> Technical Education Board</h1>
 <br>
@@ -22,40 +22,49 @@ This is a general project API management system for the dynamic data of "DTE And
 
     ```
     http://127.0.0.1:8000/api/category
+    ```
 
-    Or
+    -   Or
 
-    base_domain_name/api/category
+    ```
+    https://dte.devzar.com/api/category
     ```
 
 -   Fatch All institute Data
 
     ```
     http://127.0.0.1:8000/api/institute
+    ```
 
-    Or
+    -   Or
 
-    base_domain_name/api/institute
+    ```
+    https://dte.devzar.com/api/institute
     ```
 
     -   if you want to Search institute by category then follow this url
 
         ```
         http://127.0.0.1:8000/api/institute?category_id=1
+        ```
 
-        Or
+    -   Or
 
-        base_domain_name/api/institute?category_id=1
+        ```
+
+        https://dte.devzar.com/api/institute?category_id=1
         ```
 
 -   Fatch All Employee Information Data
 
     ```
-    http://127.0.0.1:8000/api/employeeInfos
+    http://127.0.0.1:8000/api/employee-infoemployee-info
+    ```
 
-    Or
+    -   Or
 
-    base_domain_name/api/employeeInfos
+    ```
+    https://dte.devzar.com/api/employee-info
     ```
 
     -   if you wan to Search Employee Information by any key the follow like that
@@ -64,20 +73,24 @@ This is a general project API management system for the dynamic data of "DTE And
 
         ```
         http://127.0.0.1:8000/api/employee-info?key=Rooney
+        ```
 
-        Or
+        -   Or
 
-        base_domain_name/api/employee-info?key=Rooney
+        ```
+        https://dte.devzar.com/api/employee-info?key=Rooney
         ```
 
         -   for only category
 
             ```
             http://127.0.0.1:8000/api/employee-info?category_id=1
+            ```
 
-            Or
+            -   Or
 
-            base_domain_name/api/employee-info?category_id=1
+            ```
+            https://dte.devzar.com/api/employee-info?category_id=1
 
             ```
 
@@ -85,10 +98,12 @@ This is a general project API management system for the dynamic data of "DTE And
 
             ```
             http://127.0.0.1:8000/api/employee-info?institute_id=2
+            ```
 
-            Or
+            -   Or
 
-            base_domain_name/api/employee-info?institute_id=2
+            ```
+            https://dte.devzar.com/api/employee-info?institute_id=2
 
             ```
 
@@ -96,10 +111,12 @@ This is a general project API management system for the dynamic data of "DTE And
 
             ```
             http://127.0.0.1:8000/api/employee-info?key=Rooney&category_id=1
+            ```
 
-            Or
+            -   Or
 
-            base_domain_name/api/employee-info?key=Rooney&category_id=1
+            ```
+            https://dte.devzar.com/api/employee-info?key=Rooney&category_id=1
 
             ```
 
@@ -107,10 +124,12 @@ This is a general project API management system for the dynamic data of "DTE And
 
             ```
             http://127.0.0.1:8000/api/employee-info?key=Rooney&institute_id=2
+            ```
 
-            Or
+        -   Or
 
-            base_domain_name/api/employee-info?key=Rooney&institute_id=2
+            ```
+            https://dte.devzar.com/api/employee-info?key=Rooney&institute_id=2
 
             ```
 
@@ -118,20 +137,24 @@ This is a general project API management system for the dynamic data of "DTE And
 
             ```
              http://127.0.0.1:8000/api/employee-info?key=Rooney&category_id=1&institute_id=2
+            ```
 
-            Or
+        -   Or
 
-            base_domain_name/api/employee-info?key=Rooney&category_id=1&institute_id=2
+            ```
+            https://dte.devzar.com/api/employee-info?key=Rooney&category_id=1&institute_id=2
             ```
 
 -   Fatch All Category,institute and Employee info Data
 
     ```
     http://127.0.0.1:8000/api/employee-info/all
+    ```
 
-    Or
+    -   Or
 
-    base_domain_name/api/employee-info/all
+    ```
+    https://dte.devzar.com/api/employee-info/all
     ```
 
 ## Security Vulnerabilities
