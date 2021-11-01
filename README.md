@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://dte.devzar.com" target="_blank">
-<img src="resources\assets\img\logo.png" width="400">
+<img src="img\logo.png" width="400">
 
 <h1 align="center"> Technical Education Board</h1>
 <br>
@@ -24,7 +24,7 @@ This is a general project API management system for the dynamic data of "DTE And
     http://127.0.0.1:8000/api/category
     ```
 
-    -   Or
+    -   OR
 
     ```
     https://dte.devzar.com/api/category
@@ -36,7 +36,7 @@ This is a general project API management system for the dynamic data of "DTE And
     http://127.0.0.1:8000/api/institute
     ```
 
-    -   Or
+    -   OR
 
     ```
     https://dte.devzar.com/api/institute
@@ -48,10 +48,9 @@ This is a general project API management system for the dynamic data of "DTE And
         http://127.0.0.1:8000/api/institute?category_id=1
         ```
 
-    -   Or
+        -   OR
 
         ```
-
         https://dte.devzar.com/api/institute?category_id=1
         ```
 
@@ -61,7 +60,7 @@ This is a general project API management system for the dynamic data of "DTE And
     http://127.0.0.1:8000/api/employee-infoemployee-info
     ```
 
-    -   Or
+    -   OR
 
     ```
     https://dte.devzar.com/api/employee-info
@@ -75,7 +74,7 @@ This is a general project API management system for the dynamic data of "DTE And
         http://127.0.0.1:8000/api/employee-info?key=Rooney
         ```
 
-        -   Or
+        -   OR
 
         ```
         https://dte.devzar.com/api/employee-info?key=Rooney
@@ -87,7 +86,7 @@ This is a general project API management system for the dynamic data of "DTE And
             http://127.0.0.1:8000/api/employee-info?category_id=1
             ```
 
-            -   Or
+            -   OR
 
             ```
             https://dte.devzar.com/api/employee-info?category_id=1
@@ -100,11 +99,10 @@ This is a general project API management system for the dynamic data of "DTE And
             http://127.0.0.1:8000/api/employee-info?institute_id=2
             ```
 
-            -   Or
+            -   OR
 
             ```
             https://dte.devzar.com/api/employee-info?institute_id=2
-
             ```
 
         -   for key and category
@@ -113,11 +111,10 @@ This is a general project API management system for the dynamic data of "DTE And
             http://127.0.0.1:8000/api/employee-info?key=Rooney&category_id=1
             ```
 
-            -   Or
+            -   OR
 
             ```
             https://dte.devzar.com/api/employee-info?key=Rooney&category_id=1
-
             ```
 
         -   for key and institute
@@ -126,11 +123,10 @@ This is a general project API management system for the dynamic data of "DTE And
             http://127.0.0.1:8000/api/employee-info?key=Rooney&institute_id=2
             ```
 
-        -   Or
+        -   OR
 
             ```
             https://dte.devzar.com/api/employee-info?key=Rooney&institute_id=2
-
             ```
 
         -   for key,category and institute
@@ -139,7 +135,7 @@ This is a general project API management system for the dynamic data of "DTE And
              http://127.0.0.1:8000/api/employee-info?key=Rooney&category_id=1&institute_id=2
             ```
 
-        -   Or
+            -   OR
 
             ```
             https://dte.devzar.com/api/employee-info?key=Rooney&category_id=1&institute_id=2
@@ -151,7 +147,7 @@ This is a general project API management system for the dynamic data of "DTE And
     http://127.0.0.1:8000/api/employee-info/all
     ```
 
-    -   Or
+    -   OR
 
     ```
     https://dte.devzar.com/api/employee-info/all
