@@ -1,12 +1,22 @@
-<p align="center"><a href="https://dtw.bmda.info" target="_blank"><img src="resources\assets\img\logo.png" width="400"></a></p>
+<p align="center">
+<a href="https://dte.devzar.com" target="_blank">
+<img src="resources\assets\img\logo.png" width="400">
 
-# About DTE API Mangment System
+<h1 align="center"> Technical Education Board</h1>
+<br>
+<br>
+</a>
+</p>
 
-This is a general project API management system for the dynamic data of Android apps for all employees information of the Technical Education. Board
+## About DTE API Mangment System
 
+This is a general project API management system for the dynamic data of "DTE Android apps" for all employees information of the Technical Education Board.
+
+<br>
+<br>
+
+<h3>API Documentation</h3>
 <hr>
-
-# Api Doc
 
 -   Fatch All Category Data
 
