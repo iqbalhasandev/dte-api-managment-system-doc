@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://dte.devzar.com" target="_blank">
-<img src="img\logo.png" width="400">
+<img src="logo.png" width="400">
 
 <h1 align="center"> Technical Education Board</h1>
 <br>
